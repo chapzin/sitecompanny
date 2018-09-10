@@ -1,2 +1,2 @@
-# sitecompanny
-Aqui fica o site institucional da companny do brasil
+# Site Companny
+Aqui fica o site institucional da Companny do Brasil
