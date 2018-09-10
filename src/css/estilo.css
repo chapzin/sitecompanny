@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Bebas;
+  src: 
+  local('/home/julliaathayde/Dropbox/Projetos/Company Brasil/compannydobrasil.com.br/src/fonts/BebasNeue.otf'),
+  url('/home/julliaathayde/Dropbox/Projetos/Company Brasil/compannydobrasil.com.br/src/fonts/BebasNeue.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Lato;
+  src:
+  local('/home/julliaathayde/Dropbox/Projetos/Company Brasil/compannydobrasil.com.br/src/fonts/Lato-Regular.ttf'),
+  url('/home/julliaathayde/Dropbox/Projetos/Company Brasil/compannydobrasil.com.br/src/fonts/Lato-Regular.ttf');
+  font-weight: normal; 
+}
