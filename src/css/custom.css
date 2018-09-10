@@ -12,3 +12,25 @@
   url('/home/julliaathayde/Dropbox/Projetos/Company Brasil/compannydobrasil.com.br/src/fonts/Lato-Regular.ttf');
   font-weight: normal; 
 }
+body {
+  background-color: #25496b;
+}
+.navbar-brand, ul {
+  position: relative;
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+}
+.navbar-brand, .nav-link {
+  color: #f7f7f7;
+  font-family: Lato;
+}
+nav {
+  background-color: #073763;
+  height: 20vh;
+}
+.nav-link:hover {
+  color: #f7f7f7;
+}
+.hvr-underline-reveal:before {
+  background-color: #fcb612;
+}
