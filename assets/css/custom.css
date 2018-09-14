@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Bebas;
+  src: 
+  /* local('../fonts/BebasNeue.otf'), */
+  url('../fonts/BebasNeue.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Lato;
+  src:
+  /* local('../fonts/Lato-Regular.ttf'), */
+  url('../fonts/Lato-Regular.ttf');
+  font-weight: normal; 
+}
+.background-blue {
+  background: #073763;
+}
+.section-height {
+  min-height: 100vh;
+}
+.nav-link {
+  color: #f7f7f7;
+  font-family: Lato;
+}
+.nav-link:hover {
+  color: #f7f7f7;
+}
+.hvr-underline-reveal:before {
+  background-color: #fcb612;
+}
+.div-sobre {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  float: left;
+  padding: 5rem;
+}
+.div-valores {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  float: left;
+  padding: 5rem;
+  background: #25496b;
+  color: white;
+
+}
+section:before,
+section:after {
+    content: "";
+    display: table;
+} 
+section:after {
+  clear: both;
+}
+.color-white {
+  color: #f7f7f7;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bebas;
+}
+p {
+  font-family: Lato;
+}
+
