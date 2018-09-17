@@ -1,4 +1,11 @@
 @font-face {
+  font-family: Lato-LI;
+  src: 
+  /* local('../fonts/BebasNeue.otf'), */
+  url('../fonts/Lato-LightItalic.ttf');
+  font-weight: normal;
+}
+@font-face {
   font-family: Bebas;
   src: 
   /* local('../fonts/BebasNeue.otf'), */
@@ -16,14 +23,15 @@
   background: #073763;
 }
 .section-height {
-  min-height: 100vh;
+  min-height: 50vh;
+}
+.col-nav {
+  background-color: #f7f7f7;
 }
 .nav-link {
-  color: #f7f7f7;
+  color: #25496b;
   font-family: Lato;
-}
-.nav-link:hover {
-  color: #f7f7f7;
+  font-size: 1.3rem;
 }
 .hvr-underline-reveal:before {
   background-color: #fcb612;
@@ -34,6 +42,7 @@
   height: 100vh;
   float: left;
   padding: 5rem;
+  font-size: 1rem;
 }
 .div-valores {
   position: relative;
@@ -43,7 +52,7 @@
   padding: 5rem;
   background: #25496b;
   color: white;
-
+  font-size: 1rem;
 }
 section:before,
 section:after {
@@ -62,4 +71,31 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-family: Lato;
 }
-
+.slogan-p {
+  font-family: Font1;
+}
+.blue-gradient {
+  background: rgb(7,55,99);
+  background: linear-gradient(90deg, rgba(7,55,99,1) 0%, rgba(42,93,142,0.9612219887955182) 50%, rgba(7,55,99,0.9612219887955182) 100%);
+}
+/* Home Style */
+.title {
+  color: #f7f7f7;
+  font-size: 6rem;
+  letter-spacing: 0.5rem;
+}
+.slogan-p {
+  color: #f7f7f7;
+  font-size: 1.5rem;
+  font-family: Lato-LI;
+}
+.call-to-action {
+  border: 2px solid #fcb612;
+  color: #f7f7f7;
+  font-family: Bebas;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+.hvr-sweep-to-top:before {
+  background: #fcb612;
+}
