@@ -2,7 +2,7 @@
   font-family: Lato-LI;
   src: 
   /* local('../fonts/BebasNeue.otf'), */
-  url('../fonts/Lato-LightItalic.ttf');
+  url('../fonts/Lato-Italic.ttf');
   font-weight: normal;
 }
 @font-face {
@@ -23,7 +23,7 @@
   background: #073763;
 }
 .section-height {
-  min-height: 50vh;
+  min-height: 60vh;
 }
 .col-nav {
   background-color: #f7f7f7;
@@ -88,14 +88,26 @@ p {
   color: #f7f7f7;
   font-size: 1.5rem;
   font-family: Lato-LI;
+  text-shadow: 1px 1px black;
 }
 .call-to-action {
-  border: 2px solid #fcb612;
+  
+  background-color: #fcb612;
   color: #f7f7f7;
   font-family: Bebas;
   font-weight: bold;
   letter-spacing: 0.2rem;
 }
+.call-to-action:hover{
+  background-color: transparent;
+  border: 2px solid #fcb612;
+}
 .hvr-sweep-to-top:before {
-  background: #fcb612;
+  background-color: transparent;
+}
+.home {
+  background-image: url('../img/img4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
