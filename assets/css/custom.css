@@ -19,21 +19,22 @@
   url('../fonts/Lato-Regular.ttf');
   font-weight: normal; 
 }
+html {
+  scroll-behavior: smooth;
+}
 .background-blue {
   background: #073763;
-}
-.home-height {
-  min-height: 90vh;
 }
 .section-height {
   min-height: 100vh;
 }
-/* .menu-sticky {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
+.menu-sticky {
+  position: fixed;
+  /* position: -webkit-sticky; */
+  width: 100%;
+  /* top: 10px; */
   z-index: 10;
-} */
+}
 .col-nav {
   background-color: #f7f7f7;
 }
@@ -121,5 +122,5 @@ p {
   margin-right: 2vh;
 }
 .margin-10 {
-  margin-top: 10%;
+  margin-top: 15%;
 }
