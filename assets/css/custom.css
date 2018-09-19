@@ -22,9 +22,18 @@
 .background-blue {
   background: #073763;
 }
-.section-height {
-  min-height: 60vh;
+.home-height {
+  min-height: 90vh;
 }
+.section-height {
+  min-height: 100vh;
+}
+/* .menu-sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 10;
+} */
 .col-nav {
   background-color: #f7f7f7;
 }
@@ -98,16 +107,19 @@ p {
   font-weight: bold;
   letter-spacing: 0.2rem;
 }
-.call-to-action:hover{
-  background-color: transparent;
-  border: 2px solid #fcb612;
-}
+
 .hvr-sweep-to-top:before {
   background-color: transparent;
 }
 .home {
-  background-image: url('../img/img4.jpg');
+  background-image: url('../img/img42.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+.fas, .far {
+  margin-right: 2vh;
+}
+.margin-10 {
+  margin-top: 10%;
 }

@@ -1,8 +1,12 @@
 - name: Home
   link: /
+  id: home
 - name: Sobre
   link: /sobre
+  id: sobre
 - name: Contato
   link: /contato
+  id: contato
 - name: Trabalhe Conosco
   link: /trabalhe-conosco
+  id: trabalhe-conosco

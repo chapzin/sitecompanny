@@ -6,7 +6,7 @@
           <ul class="nav">
             {% for item in site.data.items-menu %}
             <li class="nav-item">
-              <a class="nav-link hvr-underline-reveal" href="{{ item.link }}">{{ item.name }}</a>
+              <a class="nav-link hvr-underline-reveal" href="{{ item.id | prepend: "#" }}">{{ item.name }}</a>
             </li>
             {% endfor %}
           </ul>
