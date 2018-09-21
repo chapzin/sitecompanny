@@ -1,12 +1,8 @@
-- name: Home
-  link: /
-  id: topo
-- name: Sobre
-  link: /sobre
-  id: sobre
-- name: Contato
-  link: /contato
-  id: contato
-- name: Trabalhe Conosco
-  link: /trabalhe-conosco
-  id: trabalhe-conosco
+- title: Home
+  href: '/'
+- title: Sobre
+  href: '/#sobre'
+- title: Contato
+  href: '/#contato'
+- title: Trabalhe Conosco
+  href: '/trabalhe-conosco'

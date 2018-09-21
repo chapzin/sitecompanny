@@ -6,18 +6,11 @@
           <ul class="nav">
               {% for item in site.data.items-menu %}
                 <li class="nav-item">
-                  {% if item.id == 'trabalhe-conosco' %}
-                    <a class="nav-link hvr-underline-reveal" href="{{ item.id | prepend:"/" }}">{{ item.name }}</a>
-                  {% else %}
-                    <a class="nav-link hvr-underline-reveal" href="{{ item.id | prepend:"#" }}">{{ item.name }}</a>
-                  {% endif %}
+                  <a class="nav-link hvr-underline-reveal" href="{{ item.href }}">
+                    {{ item.title }}
+                  </a>
                 </li>
               {% endfor %}
-            <!-- {% for item in site.data.items-menu %}
-            <li class="nav-item">
-              <a class="nav-link hvr-underline-reveal" href="{{ item.id | prepend: "#" }}">{{ item.name }}</a>
-            </li>
-            {% endfor %} -->
           </ul>
         </nav>
       </div>
