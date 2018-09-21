@@ -4,11 +4,20 @@
       <div class="col col-nav">
         <nav class="navbar d-flex justify-content-center">
           <ul class="nav">
-            {% for item in site.data.items-menu %}
+              {% for item in site.data.items-menu %}
+                <li class="nav-item">
+                  {% if item.id == 'trabalhe-conosco' %}
+                    <a class="nav-link hvr-underline-reveal" href="{{ item.id | prepend:"/" }}">{{ item.name }}</a>
+                  {% else %}
+                    <a class="nav-link hvr-underline-reveal" href="{{ item.id | prepend:"#" }}">{{ item.name }}</a>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            <!-- {% for item in site.data.items-menu %}
             <li class="nav-item">
               <a class="nav-link hvr-underline-reveal" href="{{ item.id | prepend: "#" }}">{{ item.name }}</a>
             </li>
-            {% endfor %}
+            {% endfor %} -->
           </ul>
         </nav>
       </div>

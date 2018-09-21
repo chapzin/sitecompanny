@@ -29,10 +29,10 @@ html {
   min-height: 100vh;
 }
 .menu-sticky {
-  position: fixed;
+  position: sticky;
   /* position: -webkit-sticky; */
   width: 100%;
-  /* top: 10px; */
+  top: 0px;
   z-index: 10;
 }
 .col-nav {
@@ -75,10 +75,13 @@ section:after {
 .color-white {
   color: #f7f7f7;
 }
+.color-black {
+  color: #272727;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: Bebas;
 }
-p {
+p, label, input {
   font-family: Lato;
 }
 .slogan-p {
@@ -118,9 +121,45 @@ p {
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
 .fas, .far {
   margin-right: 2vh;
 }
+.trabalhe {
+  min-height: 20vh;
+}
+.form {
+  min-height: 70vh;
+}
 .margin-10 {
-  margin-top: 15%;
+  margin-top: 10%;
+}
+.margin-3 {
+  margin-top: 3%;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.informacao {
+  background-color: #25496b;
+  padding: 0.5rem;
+}
+.no-border {
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid rgb(206, 212, 218);
+}
+.title-sub-page {
+  color: #f7f7f7;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
 }
