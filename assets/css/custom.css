@@ -28,9 +28,9 @@ html {
 .section-height {
   min-height: 100vh;
 }
-.menu-sticky {
-  position: sticky;
-  position: -webkit-sticky;
+.menu-fixed {
+  position: fixed;
+  position: -webkit-fixed;
   width: 100%;
   top: 0px;
   z-index: 10;
