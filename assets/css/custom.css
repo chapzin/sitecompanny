@@ -40,7 +40,8 @@ html {
   background-color: #f7f7f7;
 }
 .nav-link {
-  color: #25496b;
+  color: #25496b !important;
+  padding: 0.5rem 1rem;
   font-family: Lato;
   font-size: 1.3rem;
 }
@@ -48,19 +49,13 @@ html {
   background-color: #fcb612;
 }
 .div-sobre {
-  position: relative;
-  width: 50%;
   height: 100vh;
-  float: left;
   padding: 5rem;
   font-size: 1rem;
   background-color: #fafafa;
 }
 .div-valores {
-  position: relative;
-  width: 50%;
   height: 100vh;
-  float: left;
   padding: 5rem;
   background: #25496b;
   color: white;
