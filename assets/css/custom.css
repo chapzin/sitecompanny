@@ -50,13 +50,13 @@ html {
 }
 .div-sobre {
   height: 100vh;
-  padding: 5rem;
+  padding: 3.5rem 1.5rem;
   font-size: 1rem;
   background-color: #fafafa;
 }
 .div-valores {
   height: 100vh;
-  padding: 5rem;
+  padding: 3.5rem 1.5rem;
   background: #25496b;
   color: white;
   font-size: 1rem;
