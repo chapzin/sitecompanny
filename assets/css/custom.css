@@ -50,13 +50,13 @@ html {
 }
 .div-sobre {
   height: 100vh;
-  padding: 3.5rem 1.5rem;
+  padding: 3.5rem 1rem;
   font-size: 1rem;
   background-color: #fafafa;
 }
 .div-valores {
   height: 100vh;
-  padding: 3.5rem 1.5rem;
+  padding: 3.5rem 1rem;
   background: #25496b;
   color: white;
   font-size: 1rem;
@@ -169,4 +169,17 @@ p, label, input {
 }
 img {
   width: 100%
+}
+
+@media screen and (max-width: 280px) {
+  .div-sobre,
+  .div-valores {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 180px) {
+  .div-sobre,
+  .div-valores {
+    font-size: 0.6rem;
+  }
 }
