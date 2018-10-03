@@ -101,7 +101,6 @@ p, label, input {
   text-shadow: 1px 1px black;
 }
 .call-to-action {
-  
   background-color: #fcb612;
   color: #f7f7f7;
   font-family: Bebas;
@@ -173,4 +172,19 @@ img {
 
 #carouselExampleControls {
   height: 200px;
+}
+ 
+@media screen and (max-width: 769px) {
+  .title {
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+  }
+  .slogan-p {
+    font-size: 1.5rem;
+  }
+  .call-to-action {
+    padding: .5rem 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+  }
 }
