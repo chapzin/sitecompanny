@@ -123,6 +123,7 @@ p, label, input {
 }
 .trabalhe {
   min-height: 20vh;
+  margin-top: 63px;
 }
 .form {
   min-height: 70vh;
@@ -159,7 +160,7 @@ p, label, input {
 }
 .title-sub-page {
   color: #f7f7f7;
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 0.5rem;
 }
 .card-img-top {
@@ -186,5 +187,8 @@ img {
     padding: .5rem 1rem;
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
+  }
+  .trabalhe {
+    margin-top: 56px;
   }
 }
