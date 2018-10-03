@@ -171,15 +171,6 @@ img {
   width: 100%
 }
 
-@media screen and (max-width: 280px) {
-  .div-sobre,
-  .div-valores {
-    font-size: 0.8rem;
-  }
-}
-@media screen and (max-width: 180px) {
-  .div-sobre,
-  .div-valores {
-    font-size: 0.4rem;
-  }
+#carouselExampleControls {
+  height: 200px;
 }
