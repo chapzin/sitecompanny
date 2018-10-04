@@ -25,9 +25,7 @@ html {
 .background-blue {
   background: #073763;
 }
-.section-height {
-  min-height: 100vh;
-}
+
 .menu-fixed {
   position: fixed;
   position: -webkit-fixed;
@@ -48,14 +46,17 @@ html {
 .hvr-underline-reveal:before {
   background-color: #fcb612;
 }
+.section-height {
+  min-height: 100vh;
+}
 .div-sobre {
-  height: 100vh;
+  height: 100%;
   padding: 3.5rem 1rem;
   font-size: 1rem;
   background-color: #fafafa;
 }
 .div-valores {
-  height: 100vh;
+  height: 100%;
   padding: 3.5rem 1rem;
   background: #25496b;
   color: white;
@@ -63,8 +64,8 @@ html {
 }
 section:before,
 section:after {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 } 
 section:after {
   clear: both;
@@ -174,7 +175,10 @@ img {
 #carouselExampleControls {
   height: 200px;
 }
- 
+address {
+  height: 90%;
+}
+
 @media screen and (max-width: 769px) {
   .title {
     font-size: 4rem;
