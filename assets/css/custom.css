@@ -48,6 +48,7 @@ html {
 }
 .section-height {
   min-height: 100vh;
+  position: relative;
 }
 .div-sobre {
   height: 100%;
@@ -177,6 +178,13 @@ img {
 address {
   height: 90%;
 }
+
+.anchor {
+  position: absolute;
+  left: 0px;
+  top: -63px;
+}
+
 strong {
   color: #25496b;
 }
@@ -201,4 +209,11 @@ strong {
   .trabalhe {
     margin-top: 56px;
   }
+
+  .anchor {
+    position: absolute;
+    left: 0px;
+    top: -56px;
+  }
 }
+
