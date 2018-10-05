@@ -178,11 +178,20 @@ img {
 address {
   height: 90%;
 }
+
 .anchor {
   position: absolute;
   left: 0px;
   top: -63px;
 }
+
+strong {
+  color: #25496b;
+}
+.btn-link {
+  color: #073763;
+}
+
 
 @media screen and (max-width: 769px) {
   .title {
