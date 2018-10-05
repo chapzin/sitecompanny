@@ -48,6 +48,7 @@ html {
 }
 .section-height {
   min-height: 100vh;
+  position: relative;
 }
 .div-sobre {
   height: 100%;
@@ -177,6 +178,11 @@ img {
 address {
   height: 90%;
 }
+.anchor {
+  position: absolute;
+  left: 0px;
+  top: -63px;
+}
 
 @media screen and (max-width: 769px) {
   .title {
@@ -194,4 +200,11 @@ address {
   .trabalhe {
     margin-top: 56px;
   }
+
+  .anchor {
+    position: absolute;
+    left: 0px;
+    top: -56px;
+  }
 }
+
