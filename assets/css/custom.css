@@ -177,6 +177,13 @@ img {
 address {
   height: 90%;
 }
+strong {
+  color: #25496b;
+}
+.btn-link {
+  color: #073763;
+}
+
 
 @media screen and (max-width: 769px) {
   .title {
