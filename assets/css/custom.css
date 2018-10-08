@@ -24,8 +24,8 @@ html {
 }
 .background-blue {
   background: #073763;
+  color: #f7f7f7;
 }
-
 .menu-fixed {
   position: fixed;
   position: -webkit-fixed;
@@ -71,9 +71,6 @@ section:after {
 section:after {
   clear: both;
 }
-.color-white {
-  color: #f7f7f7;
-}
 .color-black {
   color: #272727;
 }
@@ -82,9 +79,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 p, label, input {
   font-family: Lato;
-}
-.slogan-p {
-  font-family: Font1;
 }
 .blue-gradient {
   background: rgb(7,55,99);
@@ -149,10 +143,6 @@ p, label, input {
     padding-left: 0;
   }
 }
-.informacao {
-  background-color: #25496b;
-  padding: 0.5rem;
-}
 .no-border {
   border: 0;
   border-radius: 0;
@@ -178,21 +168,17 @@ img {
 address {
   height: 90%;
 }
-
 .anchor {
   position: absolute;
   left: 0px;
   top: -63px;
 }
-
 strong {
   color: #25496b;
 }
 .btn-link {
   color: #073763;
 }
-
-
 @media screen and (max-width: 769px) {
   .title {
     font-size: 4rem;
