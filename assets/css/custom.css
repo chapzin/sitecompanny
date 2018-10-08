@@ -41,7 +41,7 @@ html {
   color: #25496b !important;
   padding: 0.5rem 1rem;
   font-family: Lato;
-  font-size: 1.3rem;
+  font-size: 1.1wrem;
 }
 .hvr-underline-reveal:before {
   background-color: #fcb612;
@@ -216,4 +216,8 @@ strong {
     top: -56px;
   }
 }
-
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
