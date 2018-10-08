@@ -1,18 +1,18 @@
 # - fornecedor: Dia-Frag
 #   src: ../assets/img/logo_diafrag2.png
-# - fornecedor: Flynn
-#   src: ../assets/img/flynn.jpeg
+- fornecedor: Flynn
+  src: ../assets/img/logo_flynn2.png
 - fornecedor: Givi
   src: ../assets/img/logo_givi2.png
 - fornecedor: Levorin
-  src: ../assets/img/levorin.jpeg
+  src: ../assets/img/logo_levorin2.png
 - fornecedor: Mofardini
   src: ../assets/img/mofardini.jpeg
 - fornecedor: ProTork
-  src: ../assets/img/protork.jpeg
+  src: ../assets/img/logo_tork2.png
 - fornecedor: Sportive
-  src: ../assets/img/sportive.jpeg
+  src: ../assets/img/logo_sportive2.png
 - fornecedor: Taurus
   src: ../assets/img/logo_taurus2.png
 - fornecedor: Vaz
-  src: ../assets/img/vaz.jpeg
+  src: ../assets/img/logo_vaz2.png
