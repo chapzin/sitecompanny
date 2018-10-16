@@ -1,18 +1,17 @@
-# - fornecedor: Dia-Frag
-#   src: ../assets/img/logo_diafrag2.png
-- fornecedor: Flynn
-  src: ../assets/img/logo_flynn2.png
-- fornecedor: Givi
-  src: ../assets/img/logo_givi2.png
+# - fornecedor: Circuit
+#   src: ../assets/img/fornecedores/logo_circuit2.png
+#  Este item é o primeiro, com classe active.
+- fornecedor: KMC
+  src: ../assets/img/fornecedores/logo_kmc2.png
 - fornecedor: Levorin
-  src: ../assets/img/logo_levorin2.png
-- fornecedor: Mofardini
-  src: ../assets/img/mofardini.jpeg
+  src: ../assets/img/fornecedores/logo_levorin2.png
+- fornecedor: Magnetron
+  src: ../assets/img/fornecedores/logo_magnetron2.png
 - fornecedor: ProTork
-  src: ../assets/img/logo_tork2.png
+  src: ../assets/img/fornecedores/logo_tork2.png
 - fornecedor: Sportive
-  src: ../assets/img/logo_sportive2.png
+  src: ../assets/img/fornecedores/logo_sportive2.png
 - fornecedor: Taurus
-  src: ../assets/img/logo_taurus2.png
+  src: ../assets/img/fornecedores/logo_taurus2.png
 - fornecedor: Vaz
-  src: ../assets/img/logo_vaz2.png
+  src: ../assets/img/fornecedores/logo_vaz2.png
